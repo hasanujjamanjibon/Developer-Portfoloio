@@ -212,6 +212,62 @@ ul li a {
   color: #757575;
 }
 .cardOne,
-.cardTwo .cardThree {
+.cardTwo,
+.cardThree {
   margin-right: 24px;
+}
+/* summary section css start */
+.summary {
+  margin: 130px 230px;
+  text-align: center;
+}
+.summary .section-title {
+  text-align: center;
+  margin-bottom: 113px;
+}
+.eduExpSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+.edu-data-section,
+.experience-section {
+  width: 50%;
+}
+.edu-data-section {
+  margin-right: 25px;
+}
+.summary h4 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #474747;
+}
+.summary .eduDetails,
+.summary .expDetails {
+  border-bottom: 1px solid #d1d1d1;
+  margin: 30px 0;
+}
+.summary h5 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  color: #474747;
+}
+.summary span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #757575;
+  margin-top: 10px;
+  display: inline-block;
+}
+.summary p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  width: 490px;
+  margin: 20px 0 30px;
 }
