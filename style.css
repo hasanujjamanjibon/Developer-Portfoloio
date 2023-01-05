@@ -90,7 +90,7 @@ ul li a {
 }
 .banner-text > h2 {
   font-weight: 700;
-  font-size: 85px;
+  font-size: 40px;
   line-height: 116px;
   color: #181818;
 }
@@ -159,14 +159,14 @@ ul li a {
 }
 .data-section p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
   color: #757575;
 }
 .data-section h4 {
   color: #474747;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 30px;
 }
 /* whatIdo section css start */
