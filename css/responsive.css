@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   body {
     padding: 0 15px;
   }
@@ -31,6 +31,9 @@
   header {
     background-image: none;
     margin-top: 0;
+  }
+  .btn-downloadCV {
+    margin-right: 0;
   }
   .banner-text > h2 {
     line-height: 45px;
