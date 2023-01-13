@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
   body {
-    padding: 0 0.9375rem;
+    padding: 0 15px;
   }
 
   .headerLeftImg {
@@ -14,7 +14,7 @@
   }
   ul li a {
     margin-left: 0;
-    margin-right: 1.25rem;
+    margin-right: 20px;
   }
 
   header,
@@ -24,7 +24,7 @@
   .card-section,
   .summary,
   footer {
-    margin: 3.125rem 0;
+    margin: 50px 0;
     padding: 0;
     height: auto;
   }
@@ -33,24 +33,25 @@
     margin-top: 0;
   }
   .banner-text > h2 {
-    line-height: 2.8125rem;
+    line-height: 45px;
   }
   .about {
-    padding: 1.25rem 0;
+    padding: 20px 0;
   }
   .banner-text {
     margin-top: 0;
   }
   .header-banner > .myImg {
-    max-width: 31.25rem;
-    margin: 1.5625rem auto;
+    width: 80%;
+    height: auto;
+    margin: 25px auto 0;
   }
   section.whatIdo {
-    margin: 1.25rem 0 0 0;
+    margin: 20px 0 0 0;
     height: auto;
   }
   .card-section {
-    gap: 1.25rem;
+    gap: 20px;
   }
   .banner-text,
   .cardOne,
@@ -59,7 +60,7 @@
   .cardFour {
     width: auto;
     height: auto;
-    padding: 1.25rem 0;
+    padding: 20px 0;
     text-align: center;
   }
 
@@ -80,5 +81,4 @@
   .footer-text .social-icon {
     text-align: center;
   }
-
 }
