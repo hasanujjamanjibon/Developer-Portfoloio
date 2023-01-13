@@ -1,0 +1,75 @@
+@media screen and (max-width: 576px) {
+  body {
+    padding: 0 15px;
+  }
+
+  .headerLeftImg {
+    display: none;
+  }
+  .navBar {
+    margin: 0;
+  }
+  ul {
+    justify-content: start;
+  }
+  ul li a {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  header,
+  .header-banner,
+  .about,
+  .whatIdo .section-description,
+  .card-section,
+  .summary,
+  footer {
+    margin: 50px 0;
+    padding: 0;
+    height: auto;
+  }
+  header {
+    background-image: none;
+    margin-top: 0;
+  }
+  .banner-text {
+    margin-top: 0;
+  }
+  section.whatIdo {
+    margin: 20px 0 0 0;
+    height: auto;
+  }
+  .card-section {
+    gap: 20px;
+  }
+  .banner-text,
+  .cardOne,
+  .cardTwo,
+  .cardThree,
+  .cardFour {
+    width: auto;
+    height: auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .flex-column {
+    flex-direction: column;
+  }
+  .edu-data-section,
+  .experience-section,
+  .footer-form {
+    width: 100%;
+  }
+  footer {
+    background-color: #ffff;
+  }
+  .footer-text .social-icon {
+    text-align: center;
+  }
+  /* .footer-form input,
+  .footer-form textarea {
+    margin-left: 10px;
+    margin-right: 10px;
+  } */
+}
