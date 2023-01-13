@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
   body {
-    padding: 0 15px;
+    padding: 0 0.9375rem;
   }
 
   .headerLeftImg {
@@ -14,7 +14,7 @@
   }
   ul li a {
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 1.25rem;
   }
 
   header,
@@ -24,7 +24,7 @@
   .card-section,
   .summary,
   footer {
-    margin: 50px 0;
+    margin: 3.125rem 0;
     padding: 0;
     height: auto;
   }
@@ -32,19 +32,25 @@
     background-image: none;
     margin-top: 0;
   }
+  .banner-text > h2 {
+    line-height: 2.8125rem;
+  }
+  .about {
+    padding: 1.25rem 0;
+  }
   .banner-text {
     margin-top: 0;
   }
-  .header-banner > .myImg{
-    width: 500px;
-    margin: 25px auto;
+  .header-banner > .myImg {
+    max-width: 31.25rem;
+    margin: 1.5625rem auto;
   }
   section.whatIdo {
-    margin: 20px 0 0 0;
+    margin: 1.25rem 0 0 0;
     height: auto;
   }
   .card-section {
-    gap: 20px;
+    gap: 1.25rem;
   }
   .banner-text,
   .cardOne,
@@ -53,14 +59,14 @@
   .cardFour {
     width: auto;
     height: auto;
-    padding: 20px 0;
+    padding: 1.25rem 0;
     text-align: center;
   }
 
   .flex-column {
     flex-direction: column;
   }
-  .summary p{
+  .summary p {
     width: 100%;
   }
   .edu-data-section,
@@ -74,9 +80,5 @@
   .footer-text .social-icon {
     text-align: center;
   }
-  /* .footer-form input,
-  .footer-form textarea {
-    margin-left: 10px;
-    margin-right: 10px;
-  } */
+
 }
