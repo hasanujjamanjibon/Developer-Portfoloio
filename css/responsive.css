@@ -67,6 +67,9 @@
   .flex-column {
     flex-direction: column;
   }
+  .summary .section-title {
+    margin-bottom: 30px;
+  }
   .summary p {
     width: 100%;
   }
