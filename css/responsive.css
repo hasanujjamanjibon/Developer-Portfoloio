@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   body {
     padding: 0 15px;
   }
@@ -35,6 +35,10 @@
   .banner-text {
     margin-top: 0;
   }
+  .header-banner > .myImg{
+    width: 500px;
+    margin: 25px auto;
+  }
   section.whatIdo {
     margin: 20px 0 0 0;
     height: auto;
@@ -49,12 +53,15 @@
   .cardFour {
     width: auto;
     height: auto;
-    padding: 0;
+    padding: 20px 0;
     text-align: center;
   }
 
   .flex-column {
     flex-direction: column;
+  }
+  .summary p{
+    width: 100%;
   }
   .edu-data-section,
   .experience-section,
